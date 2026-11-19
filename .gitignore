@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+# user data -- never commit
+*.pt
+*.v1.bak
+review_data/
+exports/
+models/
+boxtrot-sample/

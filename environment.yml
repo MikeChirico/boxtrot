@@ -1,0 +1,14 @@
+# conda env create -f environment.yml && conda activate boxtrot && pip install -e .
+name: boxtrot
+channels: [conda-forge]
+dependencies:
+  - python=3.12
+  - numpy
+  - rasterio>=1.3
+  - pyproj
+  - pillow
+  - matplotlib
+  - tk
+  - pip
+  - pytest
+  - ruff
